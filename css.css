@@ -46,11 +46,31 @@ li {
 .menu-main-li {
   display: flex;
   justify-content: flex-start;
+  transition: 1s;
 }
 
+.menu-main-li:hover {
+text-decoration: underline red;
+transition: 1s;
+}
+
+.menu-main-li li{
+  transition: 1s;
+}
+
+.menu-main-li:hover li{
+  text-decoration: underline red;
+  transition: 1s;
+
+}
 
 .menu-main-li img {
   width: 100px;
+}
+
+section{
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -161,10 +181,11 @@ li {
 
 .grid {
   display: grid;
-  grid-template:   4fr   4fr/  4fr   4fr;
+  grid-template:  4fr   4fr/  4fr   4fr;
   justify-self: center;
   grid-gap: 50px;
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 
@@ -214,8 +235,11 @@ li {
 
 #box-main {
   background-color: rgb(209, 209, 209);
-  height: 100vh;
   color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -358,4 +382,27 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   width: 50vw;
   height: 75%;
+}
+
+#button-forms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  background-color: purple;
+  width: 15vw;
+  border-radius: 15px;
+  margin: 5%;
+  margin-bottom: 250px;
+  text-align: center;
+}
+
+#button-forms a{
+  color: white;
+}
+
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
 }

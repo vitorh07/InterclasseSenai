@@ -27,7 +27,7 @@ body {
 
 a {
   text-decoration: none;
-  color: red;
+  color: white;
 }
 
 
@@ -155,7 +155,8 @@ a {
   grid-template:   4fr   4fr/  4fr   4fr;
   justify-self: center;
   grid-gap: 50px;
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-bottom: 20x;
 }
 
 
@@ -449,4 +450,22 @@ body::-webkit-scrollbar-thumb {
     width: 90vw;
     height: 75%;
     margin-bottom: 5%;
+  }
+
+  #button-forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: purple;
+    width: 40vw;
+    color: white;
+    border-radius: 5%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .flex-box{
+    display: flex;
+    flex-direction: row;
   }
