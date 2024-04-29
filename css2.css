@@ -74,7 +74,7 @@ a {
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 75%;
+  width: 85%;
   /* Could be more or less, depending on screen size */
   border-radius: 6px;
 }
@@ -316,10 +316,12 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  padding: 3%;
 }
 
 #text-box {
-  max-width: 50%;
+  max-width: 100%;
 }
   
   #menu {
@@ -424,4 +426,27 @@ body::-webkit-scrollbar-thumb {
     width: 17em;
     height: 23em;
     transform: translate(-60%,-30%);
+  }
+
+  #footer-contact-inside{
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid: 1fr;
+    background-color: crimson;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #redes-sociais-senai{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+    height: 75%;
+    margin-bottom: 5%;
   }

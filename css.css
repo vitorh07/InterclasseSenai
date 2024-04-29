@@ -243,9 +243,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 #footer-contact {
+  display: grid;
   height: 50vh;
   margin-top: 100px;
   background-color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* GITHUB ICONS */
@@ -332,4 +336,26 @@ body::-webkit-scrollbar-thumb {
 
 #text-box {
   max-width: 50%;
+}
+
+#footer-contact-inside{
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid: 1fr;
+  background-color: crimson;
+  width: 99.2vw;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#redes-sociais-senai{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+  height: 75%;
 }
